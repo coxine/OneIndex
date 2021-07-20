@@ -1,18 +1,43 @@
 # OneIndex
 Onedrive Directory Index
 
+## 修改的内容
+1. 常规美化
+2. 去除影响加载速度的一些不必要的内容
+3. 修改字体为仓耳与墨
+4. 调整文件位置，方便使用
+
+## 如何使用主题
+1. 修改/view/nexmoe/layout.php的第15行，图片链接改为自己喜欢的即可。
+```html
+<a href="/"><img class="avatar" src="//q.qlogo.cn/g?b=qq&nk=3301696646&s=100"/></a>
+```
+2. 修改/view/mexmoe/layout.php的第18-22行，网页链接改为自己喜欢的即可。
+```html
+<li class="navli"><a href="//newtea.ml" target="_blank">新茶博客</a></li>
+<li class="navli"><a href="//bbs.newtea.ml">新茶论坛</a></li>
+<li class="navli"><a href="//costg.cf">余弦官网</a></li>
+<li class="navli"><a href="//voice.costg.cf">余弦之声</a></li>
+<li class="navli"><a href="/admin">管理区</a></li>
+```
+3. 安装完成后选择“nexmoe”主题。
+
+## 感谢
+1. https://gitee.com/a574247979/oneindex
+2. https://gitee.com/beiwangshan/onindex-theme
+
+---
+# 以下是Oneindex原来的README
+
 ## 功能：
 不占用服务器空间，不走服务器流量，  
-
 直接列出 OneDrive 目录，文件直链下载。  
 
 ## 使用及免责协议
 [使用及免责协议](./使用及免责协议.md)
 
 ## 安装运行
-
 ### 源码安装运行：
-
 #### 需求：
 1、PHP空间，PHP 5.6+ 需打开curl支持  
 2、OneDrive 账号 (个人、企业版或教育版/工作或学校帐户)  
